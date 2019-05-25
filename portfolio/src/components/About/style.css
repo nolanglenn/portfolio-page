@@ -1,12 +1,23 @@
 .circular-portrait {
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     border-radius: 50%;
+    margin: 80px 0 30px 0;
 }
 
 .circular-portrait img {
     width: 100%;
     height: auto;
+}
+
+h1, h3 {
+    color: #f6f5f5;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.name {
+    color: #fab95b;
+    font-family: 'Open Sans', sans-serif;
 }
